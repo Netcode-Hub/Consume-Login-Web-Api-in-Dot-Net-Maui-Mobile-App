@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33711.374
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApp.Api", "LoginApp.Api\LoginApp.Api.csproj", "{B33F7AB7-6FC8-4C0B-B7A4-5607C3EFFD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApp", "LoginApp\LoginApp.csproj", "{24990F03-CB4B-470E-BA4E-C93BC917A3E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B33F7AB7-6FC8-4C0B-B7A4-5607C3EFFD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33F7AB7-6FC8-4C0B-B7A4-5607C3EFFD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33F7AB7-6FC8-4C0B-B7A4-5607C3EFFD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33F7AB7-6FC8-4C0B-B7A4-5607C3EFFD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24990F03-CB4B-470E-BA4E-C93BC917A3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24990F03-CB4B-470E-BA4E-C93BC917A3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24990F03-CB4B-470E-BA4E-C93BC917A3E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{24990F03-CB4B-470E-BA4E-C93BC917A3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24990F03-CB4B-470E-BA4E-C93BC917A3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24990F03-CB4B-470E-BA4E-C93BC917A3E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39DC12C6-8FB1-4648-BC13-5DA70518B428}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.LoginPage"
+             Title="">
+
+    <Frame BorderColor="AliceBlue"
+           WidthRequest="300"
+           HeightRequest="500"
+           VerticalOptions="CenterAndExpand">
+
+        <StackLayout HorizontalOptions="Center"
+                     Spacing="15">
+
+            <Image Source="dotnet_bot.png"
+                   WidthRequest="80"/>
+
+            <Label Text="Login Account"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+            <Entry Placeholder="Email Address"
+                   WidthRequest="200"
+                   x:Name="Entry_Email"/>
+
+            <Entry Placeholder="Password"
+                   IsPassword="True"
+                   x:Name="Entry_Password"/>
+
+            <Button Text="Login"
+                    FontAttributes="Bold"
+                    CornerRadius="24"
+                    BackgroundColor="BlueViolet"
+                    TextColor="White"
+                    Margin="0,5,0,0"
+                    WidthRequest="200"
+                    x:Name="Login_Btn"
+                    Clicked="Login_Btn_Clicked"/>
+
+        </StackLayout>
+        
+    </Frame>
+    
+</ContentPage>
